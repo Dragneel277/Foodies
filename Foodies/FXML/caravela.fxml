@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainbg" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1000.0" prefWidth="1700.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Separator layoutY="52.0" prefHeight="11.0" prefWidth="1300.0" />
+      <Pane fx:id="logo" prefHeight="312.0" prefWidth="309.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="behindlogo" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#goMain" prefHeight="306.0" prefWidth="309.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="1574.0" layoutY="4.0" prefHeight="56.0" prefWidth="125.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="toLogin" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#getOut" prefHeight="56.0" prefWidth="125.0" stylesheets="@../style.css" text="Sair">
+               <styleClass>
+                  <String fx:value="btnmenusair" />
+                  <String fx:value="btnmenu" />
+               </styleClass>
+            </Button>
+            <Pane fx:id="icons" layoutX="3.0" layoutY="10.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenusair" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="1403.0" layoutY="4.0" prefHeight="56.0" prefWidth="171.0">
+         <children>
+            <Button fx:id="toDef" alignment="CENTER_RIGHT" layoutX="3.0" mnemonicParsing="false" onAction="#goDef" prefHeight="56.0" prefWidth="171.0" styleClass="btnmenu" text="Definiçoes" />
+            <Pane fx:id="icons" layoutX="20.0" layoutY="9.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenudef" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="1232.0" layoutY="4.0" prefHeight="56.0" prefWidth="171.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="btnconta" alignment="CENTER_RIGHT" layoutX="49.0" mnemonicParsing="false" onAction="#toConta" prefHeight="56.0" prefWidth="125.0" styleClass="btnmenu" text="Conta" />
+            <Pane fx:id="icons" layoutX="56.0" layoutY="9.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenuconta" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="307.0" layoutY="63.0" prefHeight="938.0" prefWidth="1392.0" style="-fx-background-color: E6B2A0;">
+         <children>
+            <Pane layoutX="5.0" layoutY="84.0" prefHeight="256.0" prefWidth="257.0" styleClass="resthover">
+               <children>
+                  <Pane layoutY="-12.0" prefHeight="270.0" prefWidth="281.0" styleClass="imgrest1" />
+               </children>
+            </Pane>
+            <Separator layoutX="288.0" layoutY="87.0" prefHeight="28.0" prefWidth="1106.0" />
+            <Separator layoutX="282.0" layoutY="196.0" prefHeight="28.0" prefWidth="1106.0" />
+            <Separator layoutX="285.0" layoutY="319.0" prefHeight="28.0" prefWidth="1110.0" />
+            <Separator layoutX="288.0" layoutY="408.0" prefHeight="28.0" prefWidth="1110.0" />
+            <Label layoutX="296.0" layoutY="47.0" prefHeight="53.0" prefWidth="944.0" styleClass="textPagina" stylesheets="@../style.css" text="Classificação:(123)| #5 de 26 Restaurantes em São Vicente |  Adicionar aos Favoritos ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="16.0" prefHeight="63.0" prefWidth="245.0" styleClass="titletext" text="Caravela" textFill="#391414">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <CheckBox layoutX="1181.0" layoutY="61.0" mnemonicParsing="false" prefHeight="8.0" prefWidth="11.0">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </CheckBox>
+            <Label layoutX="299.0" layoutY="108.0" prefHeight="53.0" prefWidth="792.0" styleClass="textPagina" text="Localizaçao">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="297.0" layoutY="159.0" prefHeight="53.0" prefWidth="792.0" styleClass="textPagina" text="Laginha,Sao Vicente,Cabo Verde">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="299.0" layoutY="219.0" prefHeight="53.0" prefWidth="792.0" styleClass="textPagina" text="Horario funcionamento:">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="292.0" layoutY="271.0" prefHeight="53.0" prefWidth="792.0" styleClass="textPagina" text="Quinta a Sabado(das 09:00 as 00:00) e Terça a Quarta (das 11:00 as 22:00)">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="310.0" layoutY="334.0" prefHeight="53.0" prefWidth="792.0" styleClass="textPagina" text="Contactos">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="729.0" layoutY="376.0" onAction="#openLinkFace" prefHeight="42.0" prefWidth="104.0" text="Facebook" />
+            <Label layoutX="311.0" layoutY="367.0" prefHeight="53.0" prefWidth="244.0" styleClass="textPagina" text="9924563">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="menuOpen" layoutY="348.0" mnemonicParsing="false" onMouseClicked="#goToMenu" prefHeight="75.0" prefWidth="290.0" text="Open Menu" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

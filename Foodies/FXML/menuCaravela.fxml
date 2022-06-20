@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="mainbg" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="1000.0" prefWidth="1436.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Separator layoutY="52.0" prefHeight="11.0" prefWidth="1300.0" />
+      <Pane fx:id="logo" prefHeight="312.0" prefWidth="309.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="behindlogo" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#goMain" prefHeight="306.0" prefWidth="309.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="1306.0" layoutY="7.0" prefHeight="56.0" prefWidth="125.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="toLogin" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#getOut" prefHeight="56.0" prefWidth="125.0" stylesheets="@../style.css" text="Sair">
+               <styleClass>
+                  <String fx:value="btnmenusair" />
+                  <String fx:value="btnmenu" />
+               </styleClass>
+            </Button>
+            <Pane fx:id="icons" layoutX="3.0" layoutY="10.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenusair" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="1135.0" layoutY="7.0" prefHeight="56.0" prefWidth="171.0">
+         <children>
+            <Button fx:id="toDef" alignment="CENTER_RIGHT" layoutX="3.0" mnemonicParsing="false" onAction="#goDef" prefHeight="56.0" prefWidth="171.0" styleClass="btnmenu" text="Definiçoes" />
+            <Pane fx:id="icons" layoutX="20.0" layoutY="9.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenudef" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="964.0" layoutY="7.0" prefHeight="56.0" prefWidth="171.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="btnconta" alignment="CENTER_RIGHT" layoutX="49.0" mnemonicParsing="false" onAction="#toConta" prefHeight="56.0" prefWidth="125.0" styleClass="btnmenu" text="Conta" />
+            <Pane fx:id="icons" layoutX="56.0" layoutY="9.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenuconta" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="307.0" layoutY="63.0" prefHeight="931.0" prefWidth="1127.0" style="-fx-background-color: E6B2A0;">
+         <children>
+            <Pane layoutX="58.0" layoutY="8.0" prefHeight="911.0" prefWidth="996.0" styleClass="restmenubg">
+               <children>
+                  <Pane layoutX="4.0" layoutY="-1.0" prefHeight="788.0" prefWidth="412.0">
+                     <children>
+                        <Button alignment="TOP_LEFT" layoutX="-23.0" layoutY="122.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="975.0" style="-fx-text-fill: White;" styleClass="menuoption" text="Prego No Pao...........................400$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="TOP_LEFT" layoutX="-13.0" layoutY="181.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="1054.0" style="-fx-text-fill: White;" styleClass="menuoption" text="Hamburger............................400$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="TOP_LEFT" layoutX="-14.0" layoutY="250.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="996.0" style="-fx-text-fill: White;" styleClass="menuoption" text="CheesseBurger......................400$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="TOP_LEFT" layoutX="-25.0" layoutY="297.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="949.0" style="-fx-text-fill: White;" styleClass="menuoption" text="Hamburger Royal...................400$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="TOP_LEFT" layoutX="-30.0" layoutY="361.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="1044.0" style="-fx-text-fill: White;" styleClass="menuoption" text="Hamburgof.............................300$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="TOP_LEFT" layoutX="-28.0" layoutY="424.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="1044.0" style="-fx-text-fill: White;" styleClass="menuoption" text="Carbonara...............................1400$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="TOP_LEFT" layoutX="-19.0" layoutY="488.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="1044.0" style="-fx-text-fill: White;" styleClass="menuoption" text="Bitoque...................................600$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="TOP_LEFT" layoutX="-19.0" layoutY="549.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="1044.0" style="-fx-text-fill: White;" styleClass="menuoption" text="Lagosta...................................2200$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="TOP_LEFT" layoutX="-22.0" layoutY="612.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="1044.0" style="-fx-text-fill: White;" styleClass="menuoption" text="Spaguetti Marisco...................900$00">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="90.0" layoutY="19.0" prefHeight="98.0" prefWidth="550.0" style="-fx-background-color: white;" styleClass="titletext" text="Menu Caravela" textFill="#391414">
+                           <font>
+                              <Font size="40.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</Pane>

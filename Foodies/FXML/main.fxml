@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="mainbg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="1300.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Separator layoutY="52.0" prefHeight="11.0" prefWidth="1300.0" />
+      <Pane fx:id="logo" prefHeight="225.0" prefWidth="309.0" stylesheets="@../style.css" />
+      <Pane layoutX="1175.0" prefHeight="56.0" prefWidth="125.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="toLogin" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#getOut" prefHeight="56.0" prefWidth="125.0" stylesheets="@../style.css" text="Sair">
+               <styleClass>
+                  <String fx:value="btnmenusair" />
+                  <String fx:value="btnmenu" />
+               </styleClass></Button>
+            <Pane fx:id="icons" layoutX="3.0" layoutY="10.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenusair" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="1004.0" prefHeight="56.0" prefWidth="171.0">
+         <children>
+            <Button fx:id="toDef" alignment="CENTER_RIGHT" layoutX="3.0" mnemonicParsing="false" onAction="#goDef" prefHeight="56.0" prefWidth="171.0" styleClass="btnmenu" text="Definiçoes" />
+            <Pane fx:id="icons" layoutX="20.0" layoutY="9.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenudef" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="833.0" prefHeight="56.0" prefWidth="171.0">
+         <children>
+            <Button fx:id="btnconta" alignment="CENTER_RIGHT" layoutX="49.0" mnemonicParsing="false" onAction="#toConta" prefHeight="56.0" prefWidth="125.0" styleClass="btnmenu" text="Conta" />
+            <Pane fx:id="icons" layoutX="56.0" layoutY="9.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenuconta" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <TextField fx:id="search" layoutX="345.0" layoutY="9.0" prefHeight="38.0" prefWidth="380.0" promptText="Procurar pelo nome do Restaurante" />
+      <Pane layoutX="307.0" layoutY="63.0" prefHeight="334.0" prefWidth="994.0" style="-fx-background-color: E6B2A0;">
+         <children>
+            <Pane layoutX="27.0" layoutY="45.0" prefHeight="256.0" prefWidth="257.0" styleClass="resthover">
+               <children>
+                  <Pane prefHeight="198.0" prefWidth="257.0" styleClass="imgrest1">
+                     <children>
+                        <Button fx:id="btncaravela" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#toCaravela" prefHeight="198.0" prefWidth="257.0" styleClass="restbtn" />
+                     </children></Pane>
+                  <TextField alignment="CENTER" layoutY="198.0" prefHeight="62.0" prefWidth="131.0" styleClass="restnames" text="Caravela" />
+                  <TextField alignment="CENTER" layoutX="123.0" layoutY="198.0" prefHeight="62.0" prefWidth="137.0" styleClass="restnames" text="Rate:4.5/5" />
+               </children>
+            </Pane>
+            <Pane layoutX="369.0" layoutY="45.0" prefHeight="256.0" prefWidth="257.0" styleClass="resthover">
+               <children>
+                  <Pane prefHeight="198.0" prefWidth="257.0" styleClass="imgrest2">
+                     <children>
+                        <Button fx:id="btnelvis" layoutX="-8.0" layoutY="9.0" mnemonicParsing="false" onMouseClicked="#toElvis" prefHeight="198.0" prefWidth="257.0" styleClass="restbtn" />
+                     </children></Pane>
+                  <TextField alignment="CENTER" layoutY="198.0" prefHeight="62.0" prefWidth="131.0" styleClass="restnames" text="Elvis" />
+                  <TextField alignment="CENTER" layoutX="123.0" layoutY="198.0" prefHeight="62.0" prefWidth="137.0" styleClass="restnames" text="Rate:3/5" />
+               </children>
+            </Pane>
+            <Pane layoutX="723.0" layoutY="39.0" prefHeight="256.0" prefWidth="257.0" styleClass="resthover">
+               <children>
+                  <Pane prefHeight="198.0" prefWidth="257.0" styleClass="imgrest3">
+                     <children>
+                        <Button fx:id="btnmindel" layoutX="-8.0" layoutY="-10.0" mnemonicParsing="false" onMouseClicked="#toMindel" prefHeight="198.0" prefWidth="257.0" styleClass="restbtn" />
+                     </children></Pane>
+                  <TextField alignment="CENTER" layoutX="-31.0" layoutY="198.0" prefHeight="62.0" prefWidth="162.0" styleClass="restnames" text="Mindel Hotel" />
+                  <TextField alignment="CENTER" layoutX="123.0" layoutY="198.0" prefHeight="62.0" prefWidth="137.0" styleClass="restnames" text="Rate:4/5" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="307.0" layoutY="361.0" prefHeight="334.0" prefWidth="994.0" style="-fx-background-color: E6B2A0;">
+         <children>
+            <Pane layoutX="14.0" layoutY="39.0" prefHeight="256.0" prefWidth="257.0" styleClass="resthover">
+               <children>
+                  <Pane prefHeight="198.0" prefWidth="257.0" styleClass="imgrest4">
+                     <children>
+                        <Button fx:id="btnpizza" mnemonicParsing="false" onMouseClicked="#toPizza" prefHeight="198.0" prefWidth="257.0" styleClass="restbtn" />
+                     </children></Pane>
+                  <TextField alignment="CENTER" layoutY="198.0" prefHeight="62.0" prefWidth="131.0" styleClass="restnames" text="PizzArt" />
+                  <TextField alignment="CENTER" layoutX="123.0" layoutY="198.0" prefHeight="62.0" prefWidth="137.0" styleClass="restnames" text="Rate:4/5" />
+               </children>
+            </Pane>
+            <Pane layoutX="369.0" layoutY="33.0" prefHeight="256.0" prefWidth="257.0" styleClass="resthover">
+               <children>
+                  <Pane prefHeight="198.0" prefWidth="257.0" styleClass="imgrest5">
+                     <children>
+                        <Button fx:id="btnTavs" mnemonicParsing="false" onMouseClicked="#toTaverna" prefHeight="198.0" prefWidth="257.0" styleClass="restbtn" />
+                     </children></Pane>
+                  <TextField alignment="CENTER" layoutY="198.0" prefHeight="62.0" prefWidth="131.0" styleClass="restnames" text="Taverna" />
+                  <TextField alignment="CENTER" layoutX="123.0" layoutY="198.0" prefHeight="62.0" prefWidth="137.0" styleClass="restnames" text="Rate:3/5" />
+               </children>
+            </Pane>
+            <Pane layoutX="723.0" layoutY="33.0" prefHeight="256.0" prefWidth="257.0" styleClass="resthover">
+               <children>
+                  <Pane prefHeight="198.0" prefWidth="257.0" styleClass="imgrest6">
+                     <children>
+                        <Button fx:id="btnsabor" mnemonicParsing="false" onMouseClicked="#toSabor" prefHeight="198.0" prefWidth="257.0" styleClass="restbtn" />
+                     </children></Pane>
+                  <TextField alignment="CENTER" layoutY="198.0" prefHeight="62.0" prefWidth="131.0" styleClass="restnames" text="U Sabor" />
+                  <TextField alignment="CENTER" layoutX="123.0" layoutY="198.0" prefHeight="62.0" prefWidth="137.0" styleClass="restnames" text="Rate:5/5" />
+               </children>
+            </Pane>
+         </children></Pane>
+      <Button fx:id="procurarbtn" layoutX="680.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#procurar" style="-fx-border-color: black;" styleClass="btnmenu" text="Procurar" />
+   </children>
+</Pane>

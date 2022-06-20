@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="mainbg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="695.0" prefWidth="1300.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Separator layoutY="52.0" prefHeight="11.0" prefWidth="1300.0" />
+      <Pane layoutX="1175.0" prefHeight="56.0" prefWidth="125.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="toLogin" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#getOut" prefHeight="56.0" prefWidth="125.0" stylesheets="@../style.css" text="Sair">
+               <styleClass>
+                  <String fx:value="btnmenusair" />
+                  <String fx:value="btnmenu" />
+               </styleClass></Button>
+            <Pane fx:id="icons" layoutX="3.0" layoutY="10.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenusair" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="1004.0" prefHeight="56.0" prefWidth="171.0">
+         <children>
+            <Button fx:id="toDef" alignment="CENTER_RIGHT" layoutX="3.0" mnemonicParsing="false" onAction="#goDef" prefHeight="56.0" prefWidth="171.0" styleClass="btnmenu" text="Definiçoes" />
+            <Pane fx:id="icons" layoutX="20.0" layoutY="9.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenudef" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="833.0" prefHeight="56.0" prefWidth="171.0" stylesheets="@../style.css">
+         <children>
+            <Button alignment="CENTER_RIGHT" layoutX="49.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="125.0" styleClass="btnmenu" text="Conta" />
+            <Pane fx:id="icons" layoutX="56.0" layoutY="9.0" prefHeight="38.0" prefWidth="56.0" styleClass="iconmenuconta" stylesheets="@../style.css" />
+         </children>
+      </Pane>
+      <Pane layoutX="307.0" layoutY="63.0" prefHeight="334.0" prefWidth="994.0" style="-fx-background-color: E6B2A0;">
+         <children>
+            <Separator layoutY="195.0" prefHeight="11.0" prefWidth="994.0" />
+            <Pane prefHeight="200.0" prefWidth="200.0" styleClass="imgconta" stylesheets="@../style.css" />
+            <Separator layoutX="200.0" layoutY="64.0" prefHeight="0.0" prefWidth="275.0" />
+            <Label layoutX="209.0" layoutY="26.0" prefHeight="38.0" prefWidth="281.0" styleClass="pmtext" text="Naomy" />
+            <Label layoutX="209.0" layoutY="66.0" prefHeight="38.0" prefWidth="281.0" styleClass="pmtext" text="Laginha,mindelo" />
+            <Separator layoutY="236.0" prefHeight="11.0" prefWidth="994.0" />
+            <Label alignment="CENTER" layoutX="357.0" layoutY="206.0" prefHeight="38.0" prefWidth="281.0" styleClass="pmtext" text="Restaurantes Favoritos" textAlignment="CENTER" />
+         </children>
+      </Pane>
+      <Pane layoutX="307.0" layoutY="361.0" prefHeight="334.0" prefWidth="994.0" style="-fx-background-color: E6B2A0;">
+         <children>
+            <Separator layoutY="134.0" prefHeight="11.0" prefWidth="994.0" />
+            <Label alignment="CENTER" layoutX="339.0" layoutY="102.0" prefHeight="38.0" prefWidth="407.0" styleClass="pmtext" text="Restaurantes Mais perto da sua Localizaçao" />
+            <Pane fx:id="favimg1" layoutX="424.0" layoutY="-30.0" prefHeight="115.0" prefWidth="288.0" styleClass="fav1" stylesheets="@../style.css">
+               <children>
+                  <Pane fx:id="fav1" layoutX="98.0" layoutY="2.0" onMouseClicked="#dissapear" prefHeight="25.0" prefWidth="20.0" style="-fx-background-color: white;" styleClass="closeicon2" stylesheets="@../style.css" />
+               </children>
+            </Pane>
+            <Pane layoutX="316.0" layoutY="167.0" prefHeight="115.0" prefWidth="147.0" styleClass="perto1" stylesheets="@../style.css" />
+            <Pane layoutX="532.0" layoutY="167.0" prefHeight="115.0" prefWidth="147.0" styleClass="perto2" />
+         </children>
+      </Pane>
+      <Pane fx:id="logo" layoutX="-2.0" prefHeight="312.0" prefWidth="309.0" stylesheets="@../style.css">
+         <children>
+            <Button fx:id="behindlogo" layoutY="2.0" mnemonicParsing="false" onMouseClicked="#goMain" prefHeight="306.0" prefWidth="309.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

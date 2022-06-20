@@ -1,0 +1,267 @@
+/*
+#c92628-reddy
+#dda54e-sandy
+#4E0605-blackbean
+#5E1D1C-caput red
+*/
+#unameicon {
+    -fx-background-image: url("Imgs/icons8-login-64.png");
+    -fx-pref-width: 38px;
+    -fx-pref-height: 38px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#iconp {
+    -fx-background-image: url("Imgs/icons8-password-64.png");
+    -fx-pref-width: 38px;
+    -fx-pref-height: 38px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+.pmtext{
+    -fx-font-size: 18px;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-text-fill: #000000;
+}
+
+
+.logbtn {
+    -fx-background-color: #4E0605;
+    -fx-text-fill: #FEFFFD;
+    -fx-border: none;
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 14px;
+}
+
+.logbtn:hover {
+    -fx-background-color: #dda54e;
+}
+
+#logo {
+    -fx-background-image: url("Imgs/logov2.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#behindlogo{
+    -fx-background-color:transparent;
+}
+
+#mainbg{
+    -fx-background-color: #C43C1E;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+
+}
+
+.btnmenu {
+    -fx-background-color: #C43C1E;
+    -fx-text-fill: #FEFFFD;
+    -fx-border: none;
+    -fx-padding: 15px 32px;
+    -fx-text--fx-text-alignment: right;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 14px;;
+}
+
+.btnmenu:hover {
+    -fx-background-color: #EEA250;
+}
+
+.btnmenusair:hover {
+    -fx-background-color: #5E1D1C;
+}
+
+#icons {
+    -fx-pref-width: 38px;
+    -fx-pref-height: 38px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+.iconmenusair {
+    -fx-background-image: url("Imgs/icons8-logout-arredondado-50.png");
+}
+
+.iconmenudef{
+    -fx-background-image: url("Imgs/icons8-preferences-661.png");
+}
+
+.iconmenuconta{
+    -fx-background-image: url("Imgs/user.png");
+}
+
+#search {
+    -fx-background-color:transparent;
+    -fx-font-size: 18px;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #e3e3e3;
+    
+
+}
+
+.restnames{
+    -fx-font-size: 18px;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-text-fill: #000000;
+    -fx-background-color:transparent;
+    -fx-font-weight: bold;
+}
+
+.imgrest1{
+    -fx-background-image: url("Imgs/Restaurantes/caravela.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-opacity: 1;
+}
+
+.imgrest2{
+    -fx-background-image: url("Imgs/Restaurantes/elvis.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-opacity: 1;
+}
+
+.imgrest3{
+    -fx-background-image: url("Imgs/Restaurantes/mindel.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-opacity: 1;
+}
+
+.imgrest4{
+    -fx-background-image: url("Imgs/Restaurantes/pizzart.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-opacity: 1;
+}
+
+.imgrest5{
+    -fx-background-image: url("Imgs/Restaurantes/taverna.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-opacity: 1;
+}
+
+.imgrest6{
+    -fx-background-image: url("Imgs/Restaurantes/usabor.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-opacity: 1;
+}
+
+.resthover:hover{
+    -fx-opacity: 0.5;
+    -fx-background-color: rgba(0, 0, 0, 0.5); /* Black see-through */
+}
+
+.restbtn{
+    -fx-background-color: transparent;
+}
+.imgconta{
+    -fx-background-image: url("Imgs/user2.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+.fav1{
+    -fx-background-image: url("Imgs/Restaurantes/taverna.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+.fav2{
+    -fx-background-image: url("Imgs/Restaurantes/mindel.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+.perto1{
+    -fx-background-image: url("Imgs/Restaurantes/usabor.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}   
+
+.perto2{
+    -fx-background-image: url("Imgs/Restaurantes/caravela.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+.closeicon{
+    -fx-background-image: url("Imgs/icons8-x-50.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}   
+
+.closeicon2{
+    -fx-background-image: url("Imgs/icons8-x-501.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}   
+
+
+.titletext{
+    -fx-font-weight: bold;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-text-fill: #000000;
+}
+
+.defoption{
+    -fx-font-weight: bold;
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-text-fill: #000000;
+    -fx-background-color: white;
+    -fx-background-radius:20px;
+}
+
+.defoption:hover{
+    -fx-background-color: #dda54e;
+}
+
+
+.textPagina{
+    -fx-font-family: 'Roboto', sans-serif;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+
+}
+
+#menuOpen{
+    -fx-background-color: #C43C1E;
+    -fx-text-fill: #FEFFFD;
+    -fx-border: none;
+    -fx-padding: 15px 32px;
+    -fx-text--fx-text-alignment: right;
+    -fx-text-decoration: none;
+    -fx-display: inline-block;
+    -fx-font-size: 20px;
+}
+
+#menuOpen:hover{
+    -fx-background-color: #EEA250;
+}
+
+.restmenubg{
+    -fx-background-image:url("Imgs/bg2.jpg");
+
+}
+
+.menuoption{
+    -fx-background-color: transparent
+    -fx-text-fill White;
+}
+
+.menuoption:hover{
+    -fx-background-color: #EEA250;
+    -fx-opacity:0.8;
+
+
+}
